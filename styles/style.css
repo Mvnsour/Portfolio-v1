@@ -1,0 +1,154 @@
+:root {
+    --background : #081b29;
+    --firstColor: beige;
+    --secondColor: rgb(11, 93, 160);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-familiy: */
+}
+
+/*
+body {
+    background-color: var(--background);
+    color: var(--firstColor);
+}
+*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--firstColor);
+    font-weight: 600;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    color: var(--firstColor);
+    transition: 0.7s;
+}
+
+.nav-bar a:hover,
+.nav-bar a .active {
+    color: var(--secondColor);
+}
+
+section {
+    min-height: 100vh;      /* permet de s'afficher sur tout l'écran */
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    background-color: var(--background);
+    color: var(--firstColor);
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 30vh;
+}    
+
+.home-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.home-content p {
+    font-size: 1rem;
+    margin: 20px 0 30px
+}
+
+.home-content .btn-box {
+    width: 280px;
+    height: 50px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    border: 2px solid var(--firstColor);
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--firstColor);
+}
+
+.btn-box a:hover {
+    color: var(--background);
+    background-color: var(--firstColor);
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    background-color: pink;
+    color: var(--firstColor);
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    background-color: lightgreen;
+    color: var(--firstColor);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    background-color: lightgrey;
+    color: var(--firstColor);
+}
+
+.links {
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}
+
