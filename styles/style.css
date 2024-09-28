@@ -1,7 +1,7 @@
 :root {
     --background : #081b29;
     --firstColor: beige;
-    --secondColor: rgb(11, 93, 160);
+    --secondColor: rgb(4, 33, 56);
 }
 
 * {
@@ -11,12 +11,6 @@
     /* font-familiy: */
 }
 
-/*
-body {
-    background-color: var(--background);
-    color: var(--firstColor);
-}
-*/
 header {
     position: fixed;
     top: 0;
@@ -38,7 +32,7 @@ header {
     font-weight: 600;
 }
 
-.nav-bar a {
+/*.nav-bar a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -50,6 +44,10 @@ header {
 .nav-bar a:hover,
 .nav-bar a .active {
     color: var(--secondColor);
+}*/
+
+.nav-links {
+    display: flex;
 }
 
 section {
@@ -119,7 +117,7 @@ section {
     display: flex;
     align-items: center;
     z-index: 0;
-    background-color: pink;
+    background-color: darkblue;
     color: var(--firstColor);
 }
 
@@ -127,7 +125,7 @@ section {
     display: flex;
     align-items: center;
     z-index: 0;
-    background-color: lightgreen;
+    background-color: darkgray;
     color: var(--firstColor);
 }
 
@@ -135,7 +133,7 @@ section {
     display: flex;
     align-items: center;
     z-index: 0;
-    background-color: lightgrey;
+    background-color: darkred;
     color: var(--firstColor);
 }
 

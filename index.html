@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +9,19 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">logo</a>
-        <nav class="nav-bar"> 
+        <a href="" class="logo">Logo</a>
+        <nav class="nav-bar"> <!-- 
             <a href="#home" class="active">Accueil</a>
             <a href="#about-me" class="active">À propos de moi</a>
             <a href="#projects" class="active">Projets</a>
-            <a href="#contact" class="active">Contact</a>
+            <a href="#contact" class="active">Contact</a> 
+            -->
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Accueil</a></li>
+                <li><a href="#about-me" class="active">À propos de moi</a></li>
+                <li><a href="#projects" class="active">Projets</a></li>
+                <li><a href="#contact" class="active">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -51,7 +58,7 @@
         <div class="project-content">
             <a href="#" class="project-title">
             <img src="" alt="">
-            <p><span><</span>projet 1<span>></span></p>
+            <p><span><</span>projet 1<span>/></span></p>
             </a>
         </div>       
         <div class="project-content"></div>
@@ -70,9 +77,16 @@
     </main>
     <footer>
         <section id="contact" class="contact">
-            <h2>Contacts</h2>
+            <h2>Me contacter</h2>
             <form>
-
+                <label for="lastname" id="label-lastname">Nom</label>
+                <input type="text" name="lastname" id="lastname">
+                <label for="firstname" id="label-firstname">Prénom</label>
+                <input type="text" name="firstname" id="firstname">
+                <label for="email" id="label-email">Email</label>
+                <input type="email" name="email" id="email">
+                <textarea name="message" id="message" cols="" rows="" placeholder="Votre message"></textarea>
+                <button id="submit" type="Submit">Envoyer</button>
             </form>
             <div class="links" id="links">
                 <a href="https://github.com/Mvnsour"><i class='bx bxl-github'></i></a> <!-- github-->
