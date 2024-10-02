@@ -1,14 +1,21 @@
 :root {
-    --background : #081b29;
-    --firstColor: beige;
-    --secondColor: rgb(4, 33, 56);
+    --firstColor : #00111C;
+    --secondColor: #011f36;
+    --thirdColor: #FDFFFC;
+    --fourthColor: #00cef2;
+    --background: #000A14
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-familiy: */
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+    background: var(--background);
+    color: var(--thirdColor);
 }
 
 header {
@@ -17,7 +24,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 40px;
-    background-color: var(--background);
+    background: var(--background);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +35,7 @@ header {
 .logo {
     font-size: 25px;
     text-decoration: none;
-    color: var(--firstColor);
+    color: var(--thirdColor);
     font-weight: 600;
 }
 
@@ -37,7 +44,7 @@ header {
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    color: var(--firstColor);
+    color: var(--thirdColor);
     transition: 0.7s;
 }
 
@@ -52,7 +59,7 @@ header {
 
 section {
     min-height: 100vh;      /* permet de s'afficher sur tout l'écran */
-    padding: 70px 0;
+    padding: 70px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,8 +69,7 @@ section {
     display: flex;
     align-items: center;
     z-index: 0;
-    background-color: var(--background);
-    color: var(--firstColor);
+    color: var(--thirdColor);
 }
 
 .home-content {
@@ -99,34 +105,32 @@ section {
     align-items: center;
     width: 75%;
     height: 100%;
-    border: 2px solid var(--firstColor);
+    border: 2px solid var(--thirdColor);
     background-color: transparent;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--firstColor);
+    color: var(--thirdColor);
 }
 
 .btn-box a:hover {
     color: var(--background);
-    background-color: var(--firstColor);
+    background-color: var(--secondColor);
 }
 
 .about-me {
     display: flex;
     align-items: center;
     z-index: 0;
-    background-color: darkblue;
-    color: var(--firstColor);
+    color: var(--thirdColor);
 }
 
 .projects {
     display: flex;
     align-items: center;
     z-index: 0;
-    background-color: darkgray;
-    color: var(--firstColor);
+    color: var(--thirdColor);
 }
 
 .contact {
@@ -134,7 +138,7 @@ section {
     align-items: center;
     z-index: 0;
     background-color: darkred;
-    color: var(--firstColor);
+    color: var(--thirdColor);
 }
 
 .links {
