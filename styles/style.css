@@ -13,6 +13,10 @@
     font-family: "IBM Plex Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--background);
     color: var(--thirdColor);
@@ -47,12 +51,11 @@ header {
     font-weight: 500;
     margin-left: 25px;
     color: var(--thirdColor);
-    /*transition: 0.7s;*/
+    transition: 0.5s;
 }
 
-.nav-bar a:hover {
-    color: var(--thirdColor);
-    background-color: #011f36;
+.nav-bar a:hover, li:hover {
+    color: var(--fourthColor);
 }
 /*
 .nav-bar a .active {
@@ -73,9 +76,6 @@ ul {
 
 section {
     min-height: 100vh;      /* permet de s'afficher sur tout l'écran */
-}
-
-.home {
     display: flex;
     align-items: center;
     color: var(--thirdColor);
@@ -90,7 +90,6 @@ section {
 .home-content h1 {
     font-size: 4rem;
     font-weight: 700;
-    margin-top: 30vh;
 }    
 
 .home-content h3 {
