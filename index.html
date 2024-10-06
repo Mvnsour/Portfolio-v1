@@ -13,16 +13,11 @@
 <body>
     <header class="header">
         <a href="" class="logo">Logo</a>
-        <nav class="nav-bar"> <!-- 
-            <a href="#home" class="active">Accueil</a>
-            <a href="#about-me" class="active">À propos de moi</a>
-            <a href="#projects" class="active">Projets</a>
-            <a href="#contact" class="active">Contact</a> 
-            -->
+        <nav class="nav-bar"> 
             <ul class="nav-links">
-                <li><a href="#home" class="active">Accueil</a></li>
-                <li><a href="#about-me" class="active">À propos de moi</a></li>
-                <li><a href="#projects" class="active">Projets</a></li>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#about-me">À propos de moi</a></li>
                 <li><a href="#contact" class="active">Contact</a></li>
             </ul>
         </nav>
@@ -44,59 +39,71 @@
             </div>
             
         </section>
-        <section id="about-me" class="about-me">
+        <section id="projects" class="projects">
+            <h2>Mes projets</h2>
+            <div class="project-container">
+                <div class="project-content">
+                    <a href="https://mvnsour.github.io/Booki-Projet-2_Openclassrooms/" class="project-link">
+                        <div class="container">
+                            <img src="assets/booki-img.png" alt="Page d'accueil d'une agence de voyage">
+                            <div class="project-title overlay"><span class="hidden-visible"><</span>Booki<span class="hidden-visible">/></span></div>
+                        </div>
+                    </a>
+                </div>       
+                <div class="project-content">
+                    <a href="#" class="project-link">
+                        <div class="container">
+                            <img src="assets/booki-img.png" alt="">
+                            <div class="project-title overlay"><span class="hidden-visible"><</span>projet 2<span class="hidden-visible">/></span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-content">
+                    <a href="#" class="project-link">
+                        <div class="container">
+                            <img src="assets/booki-img.png" alt="">
+                            <div class="project-title overlay"><span class="hidden-visible"><</span>projet 3<span class="hidden-visible">/></span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section id="about-me" class="about-me">
+        <div class="about-me-content">
             <h1>À propos de moi</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Consequatur quas voluptatum, quisquam deserunt vitae quia asperiores odit, 
             expedita quidem unde soluta autem, nobis corrupti? Non ratione nisi dicta eos in .</p>
-
+    
              <!-- ajouter une description plus précise avec les technos utilisées. 
               mettre des icones/logos pour représenter les stacks
               indiquer ce qu'on est capable de faire (ex : dev front -> site responsive, etc.)-->
             <div class="btn-box">
                 <a href="contact">Me contacter</a>
             </div>
-        </section>
-    <section id="projects" class="projects">
-        <h2>Mes projets</h2>
-        <div class="project-content">
-            <a href="#" class="project-title">
-            <img src="" alt="">
-            <p><span><</span>projet 1<span>/></span></p>
-            </a>
-        </div>       
-        <div class="project-content"></div>
-            <a href="#" class="project-title">
-            <img src="" alt="">
-            <p><span><</span>projet 2<span>></span></p>
-            </a>
-        </div>
-        <div class="project-content">
-            <a href="#" class="project-title">
-            <img src="" alt="">
-            <p><span><</span>projet 3<span>></span></p>
-            </a>
         </div>
     </section>
     </main>
     <footer>
         <section id="contact" class="contact">
-            <h2>Me contacter</h2>
-            <form action="#">
-                <label for="lastname" id="label-lastname">Nom</label>
-                <input type="text" name="lastname" id="lastname">
-                <label for="firstname" id="label-firstname">Prénom</label>
-                <input type="text" name="firstname" id="firstname">
-                <label for="email" id="label-email">Email</label>
-                <input type="email" name="email" id="email">
-                <textarea name="message" id="message" cols="" rows="" placeholder="Votre message"></textarea>
-                <button id="submit" type="Submit">Envoyer</button>
-            </form>
-            <div class="links" id="links">
-                <a href="https://github.com/Mvnsour"><i class='bx bxl-github'></i></a> <!-- github-->
-                <a href="https://www.linkedin.com/in/mansour-mbengue-688366151/"><i class='bx bxl-linkedin'></i></a> <!-- linkedin-->
-                <a href="mailto:mbgmansour7@gmail.com">✉️</a> <!-- email -->
-                <a href="mailto:mbgmansour13@gmail.com">✉️</a> <!-- email -->
+            <div class="contact-field">
+                <h2>Me contacter</h2>
+                <form action="#">
+                    <label for="lastname" id="label-lastname">Nom</label>
+                    <input type="text" name="lastname" id="lastname">
+                    <label for="firstname" id="label-firstname">Prénom</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <label for="email" id="label-email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <textarea name="message" id="message" cols="" rows="" placeholder="Votre message"></textarea>
+                    <button id="submit" type="Submit">Envoyer</button>
+                </form>
+                <div class="links" id="links">
+                    <a href="https://github.com/Mvnsour"><i class='bx bxl-github'></i></a> <!-- github-->
+                    <a href="https://www.linkedin.com/in/mansour-mbengue-688366151/"><i class='bx bxl-linkedin'></i></a> <!-- linkedin-->
+                    <a href="mailto:mbgmansour7@gmail.com">✉️</a> <!-- email -->
+                    <a href="mailto:mbgmansour13@gmail.com">✉️</a> <!-- email -->
+                </div>
             </div>
         </section>
     </footer>
