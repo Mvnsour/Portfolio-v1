@@ -1,0 +1,79 @@
+@import url('style.css');
+
+/*************** PROJECTS PART ***************/
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    color: var(--thirdColor);
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.project-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.project-content {
+    flex-basis: 33%;
+    transition: 0.3s;
+    border-radius: 1rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--thirdColor);
+    font-size: 1.5rem;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 1rem;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: var(--firstColor);
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: .5;
+}
+
+span {
+    color: var(--fourthColor);
+}
+
+.project-title {
+    text-align: center;
+}
