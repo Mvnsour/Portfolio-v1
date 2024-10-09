@@ -5,7 +5,8 @@
     --secondColor: #011f36;
     --thirdColor: #FDFFFC;
     --fourthColor: #00cef2;
-    --background: #000A14
+    --background: #000A14;
+    border-radius: 1rem;
 }
 
 * {
@@ -22,15 +23,17 @@ html {
 body {
     background: var(--background);
     color: var(--thirdColor);
+}
+
+main, footer {
     margin-inline: 14rem;
 }
 
 header {
     position: sticky;
     top: 0;
-    /* left: 0; */
     width: 100%;
-    padding: 25px 0;
+    padding: 25px 14rem;
     background: var(--background);
     display: flex;
     align-items: center;
@@ -60,7 +63,7 @@ header {
     color: var(--fourthColor);
 }
 
-.nav-bar a .active {
+.nav-bar li a .active {
     color: var(--fourthColor);
 }
 
@@ -166,6 +169,8 @@ section {
 
 .project-content {
     flex-basis: 33%;
+    transition: 0.3s;
+    border-radius: 1rem;
 }
 
 img {
@@ -173,7 +178,7 @@ img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 .project-link {
@@ -185,40 +190,41 @@ img {
 .container {
     position: relative;
     width: 100%;
-    max-width: 300px;
+    transition: 0.3s;
+    border-radius: 1rem;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
     position: absolute;
+    top: 0;
     bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1;
+    background: var(--firstColor);
     width: 100%;
     transition: .5s ease;
     opacity:0;
-    color: white;
     font-size: 20px;
     padding: 20px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
 }
   
-  /* When you mouse over the container, fade in the overlay title */
+/* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
-    opacity: 1;
+    opacity: .9;
 }
 
-.project-link .project-title .hidden-visible {
-    visibility: hidden;
-}
-
-.project-link .project-title .hidden-visible:hover {
-    visibility: visible;
-    color: --var(--fourthColor);
+span {
+    color: var(--fourthColor);
 }
 
 .project-title {
     text-align: center;
+}
+
+.tasks-project {
+    width: 100%;
 }
 
 .contact {
