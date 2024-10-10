@@ -58,7 +58,7 @@ header {
     transition: 0.5s;
 }
 
-.nav-bar a:hover, li:hover {
+.nav-bar a:hover, .nav-bar li:hover {
     color: var(--fourthColor);
 }
 
@@ -207,8 +207,17 @@ img {
     border-radius: 1rem;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
-  
+
+.overlay .details .project-tasks {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+}
+
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
     opacity: .9;
@@ -219,10 +228,12 @@ span {
 }
 
 .project-title {
-    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly
 }
 
-.tasks-project {
+.project-tasks {
     width: 100%;
 }
 
