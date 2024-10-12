@@ -1,3 +1,5 @@
+@import './projects.css';
+
 /*************     GENERAL     ***********/
 
 :root {
@@ -41,6 +43,27 @@ header {
     z-index: 1000;
 }
 
+ul {
+    list-style: none;
+}
+
+section {
+    min-height: 100vh;      /* can display on the full screen */
+    display: flex;
+    align-items: center;
+    color: var(--thirdColor);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/****************** NAVBAR PART ************/
+
 .logo {
     font-size: 25px;
     text-decoration: none;
@@ -58,16 +81,8 @@ header {
     transition: 0.5s;
 }
 
-.nav-bar a:hover, .nav-bar li:hover {
+.nav-bar a:hover, .nav-bar a:active {
     color: var(--fourthColor);
-}
-
-.nav-bar li a .active {
-    color: var(--fourthColor);
-}
-
-ul {
-    list-style: none;
 }
 
 .nav-links {
@@ -78,12 +93,6 @@ ul {
     margin-left: 20px;
 }
 
-section {
-    min-height: 100vh;      /* can display on the full screen */
-    display: flex;
-    align-items: center;
-    color: var(--thirdColor);
-}
 
 .home-content, 
 .project-container, 
@@ -95,12 +104,16 @@ section {
     justify-content: center;
 }
 
+
+/************* HOME PART *****************/
+
 .home-content h1 {
     font-size: 4rem;
     font-weight: 700;
+    text-align: center;
 }    
 
-.home-content h3 {
+.home-content h2 {
     font-size: 2rem;
     font-weight: 700;
 }
@@ -146,102 +159,12 @@ section {
     color: var(--thirdColor);
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    z-index: 0;
-    color: var(--thirdColor);
-}
-
-.projects h2 {
-    text-align: center;
-}
-
-.project-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.project-content {
-    flex-basis: 33%;
-    transition: 0.3s;
-    border-radius: 1rem;
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 1rem;
-}
-
-.project-link {
-    text-decoration: none;
-    color: var(--thirdColor);
-    font-size: 1.5rem;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-    transition: 0.3s;
-    border-radius: 1rem;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    background: var(--firstColor);
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    font-size: 20px;
-    padding: 20px;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-}
-
-.overlay .details .project-tasks {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: 1rem;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-    opacity: .9;
-}
-
-span {
-    color: var(--fourthColor);
-}
-
-.project-title {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly
-}
-
-.project-tasks {
-    width: 100%;
-}
+/********** CONTACT PART ***************/
 
 .contact {
     display: flex;
     align-items: center;
     z-index: 0;
-    background: linear-gradient(0deg, rgba(8,27,41,1) 50%, rgba(1,31,54,0.6433167016806722) 100%);    
     color: var(--thirdColor);
 }
 

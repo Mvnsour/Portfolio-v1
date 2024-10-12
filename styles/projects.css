@@ -1,13 +1,8 @@
-@import url('style.css');
-
-/*************** PROJECTS PART ***************/
-
 .projects {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    z-index: 0;
     color: var(--thirdColor);
 }
 
@@ -15,25 +10,11 @@
     text-align: center;
 }
 
-.project-container {
+.projects .project-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     gap: 30px;
-}
-
-.project-content {
-    flex-basis: 33%;
-    transition: 0.3s;
-    border-radius: 1rem;
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 1rem;
 }
 
 .project-link {
@@ -63,11 +44,21 @@ img {
     border-radius: 1rem;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
-  
+
+.overlay .details .project-tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 75%;
+}
+
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
-    opacity: .5;
+    opacity: .9;
 }
 
 span {
@@ -75,5 +66,7 @@ span {
 }
 
 .project-title {
-    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly
 }
