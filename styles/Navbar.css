@@ -1,0 +1,28 @@
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--thirdColor);
+    font-weight: 600;
+}
+
+.nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    color: var(--thirdColor);
+    transition: 0.5s;
+}
+
+.nav-bar a:hover, .nav-bar a:active {
+    color: var(--fourthColor);
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}

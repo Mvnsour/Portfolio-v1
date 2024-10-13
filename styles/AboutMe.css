@@ -1,0 +1,6 @@
+.about-me {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    color: var(--thirdColor);
+}
