@@ -1,0 +1,19 @@
+.contact {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    color: var(--thirdColor);
+}
+
+.links {
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}

@@ -6,10 +6,6 @@
     color: var(--thirdColor);
 }
 
-.projects h2 {
-    text-align: center;
-}
-
 .projects .project-container {
     width: 100%;
     display: flex;
