@@ -1,8 +1,46 @@
 .contact {
     display: flex;
     align-items: center;
-    z-index: 0;
-    color: var(--thirdColor);
+    color: var(--thirdColor);  
+    justify-content: center;
+}
+
+.contact-field {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label, button {
+    margin-bottom: 20px;
+}
+
+input {
+    height: 40px;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid var(--fourthColor);  
+}
+
+input, textarea {
+    display: block;
+    width: 50%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 15px;
+    font-size: 1rem;
+}
+
+textarea {
+    padding: 10px;
 }
 
 .links {
