@@ -12,7 +12,11 @@
 </head>
 <body>
     <header class="header">
-        <a href="/" class="logo">Logo</a>
+        <div class="logo-container">
+            <a href="/">
+                <img src="assets/logo-m.png" alt="Mansour" class="logo">
+            </a>
+        </div>
         <nav class="nav-bar"> 
             <ul class="nav-links">
                 <li><a href="#home" class="active">Accueil</a></li>
@@ -82,31 +86,33 @@
                         </div>
                     </a>
                 </div>
-                <div class="project-content">
-                    <a href="#" class="project-link">
-                        <div class="container">
-                            <img src="assets/booki-img.png" alt="">
-                            <div class="overlay">
-                                <div class="project-title">
-                                    <span><</span><p>Projet 3</p><span>/></span>
-                                </div>
-                                <div class="details">
-                                    <ul class="project-tasks">
-                                        <!-- voir les obj pédagogique du projet -->
-                                        <li>Intégration conforme d'une maquette Figma</li>
-                                        <li>Implémenter une interface responsive</li>
-                                        <li>HTML, CSS</li>
-                                    </ul>
+                <!-- 
+                    <div class="project-content">
+                        <a href="#" class="project-link">
+                            <div class="container">
+                                <img src="assets/booki-img.png" alt="">
+                                <div class="overlay">
+                                    <div class="project-title">
+                                        <span><</span><p>Projet 3</p><span>/></span>
+                                    </div>
+                                    <div class="details">
+                                        <ul class="project-tasks">
+                                          < !-- voir les obj pédagogique du projet -- >
+                                            <li>Intégration conforme d'une maquette Figma</li>
+                                            <li>Implémenter une interface responsive</li>
+                                            <li>HTML, CSS</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
+            -->
     </section>
     <section id="about-me" class="about-me">
         <div class="about-me-content">
-            <h1>À propos de moi</h1>
+            <h2>À propos de moi</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Consequatur quas voluptatum, quisquam deserunt vitae quia asperiores odit, 
             expedita quidem unde soluta autem, nobis corrupti? Non ratione nisi dicta eos in .</p>
@@ -125,20 +131,20 @@
             <div class="contact-field">
                 <h2>Me contacter</h2>
                 <form action="#">
-                    <label for="lastname" id="label-lastname">Nom</label>
-                    <input type="text" name="lastname" id="lastname">
-                    <label for="firstname" id="label-firstname">Prénom</label>
-                    <input type="text" name="firstname" id="firstname">
+                    <label for="lastname" id="label-lastname-firstname">Nom & prénom</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="John Doe">
                     <label for="email" id="label-email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <textarea name="message" id="message" cols="" rows="" placeholder="Votre message"></textarea>
-                    <button id="submit" type="Submit">Envoyer</button>
+                    <input type="email" name="email" id="email" placeholder="john@doe.com">
+                    <label>Message</label>
+                    <textarea name="message" id="message" cols="" rows="" placeholder="Que souhaitez-vous dire ?"></textarea>
+                    <div class="btn-box">
+                        <button id="submit" type="Submit" class="cta">Envoyer</button>
+                    </div>
                 </form>
                 <div class="links" id="links">
                     <a href="https://github.com/Mvnsour"><i class='bx bxl-github'></i></a> <!-- github-->
                     <a href="https://www.linkedin.com/in/mansour-mbengue-688366151/"><i class='bx bxl-linkedin'></i></a> <!-- linkedin-->
                     <a href="mailto:mbgmansour7@gmail.com">✉️</a> <!-- email -->
-                    <a href="mailto:mbgmansour13@gmail.com">✉️</a> <!-- email -->
                 </div>
             </div>
         </section>

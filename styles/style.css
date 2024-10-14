@@ -38,7 +38,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 25px 14rem;
+    padding: 10px 14rem;
     background: var(--background);
     display: flex;
     align-items: center;
