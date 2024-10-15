@@ -14,6 +14,7 @@ form {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 50px 0;
 }
 
 label, button {
@@ -26,7 +27,8 @@ input {
 
 input:focus,
 textarea:focus {
-    border: 2px solid var(--fourthColor);  
+    outline: 4px solid var(--fourthColor);
+    transition: 0.3s;
 }
 
 input, textarea {
@@ -43,6 +45,16 @@ textarea {
     padding: 10px;
 }
 
+.label {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.btn-box button:hover {
+    cursor: pointer;
+}
+
 .links {
     width: 170px;
     display: flex;
@@ -51,7 +63,6 @@ textarea {
 
 .links a {
     display: inline-flex;
-    width: 40px;
     height: 40px;
     background: transparent;
 }
