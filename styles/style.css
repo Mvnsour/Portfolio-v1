@@ -87,14 +87,14 @@ img {
     justify-content: center;
 }
 
-.btn-box {
+.btn-box, .cta {
     width: 280px;
     height: 50px;
     display: flex;
     justify-content: center;
 }
 
-.btn-box a {
+.btn-box a, .cta {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,8 @@ img {
     transition: 0.3s;
 }
 
-.btn-box a:hover {
+.btn-box a:hover,
+.cta:hover {
     color: var(--fourthColor);
     background-color: var(--secondColor);
     border: 1px solid var(--fourthColor); 
