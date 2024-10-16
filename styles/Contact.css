@@ -1,4 +1,5 @@
 .contact {
+    min-height: 85vh;
     display: flex;
     align-items: center;
     color: var(--thirdColor);  
@@ -56,7 +57,7 @@ textarea {
 }
 
 .links {
-    width: 170px;
+    width: 30%;
     display: flex;
     justify-content: space-around;
 }
@@ -65,4 +66,51 @@ textarea {
     display: inline-flex;
     height: 40px;
     background: transparent;
+    text-decoration: none;
 }
+
+.link-item {
+    overflow: hidden; 
+    margin: 5px; 
+}
+
+.link-item,
+.fa-brands,
+.fa-envelope {
+    color: var(--thirdColor);
+    font-size: 50px;
+    transition: .3s;
+}
+
+.fa-brands:hover,
+.fa-envelope:hover {
+    transform: translateY(-5px); 
+}
+
+/*
+
+changement de couleurs des icones et changement des icones à voir plus tard pour donner un meilleur effet
+
+.fa-linkedin:hover {
+    color: #0B66C2;
+    background-color: var(--thirdColor);
+    overflow: hidden;
+}
+
+.fa-github:hover {
+    color: #000;
+    background-color: var(--thirdColor);
+}
+
+.fa-solid {
+    display: none;
+}
+
+.fa-solid :hover {
+    visibility: visible;
+}
+
+.fa-regular :hover {
+    display: none;
+}
+*/
