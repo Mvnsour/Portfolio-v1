@@ -3,6 +3,7 @@
 @import './Projects.css';
 @import url('./AboutMe.css');
 @import url('./Contact.css');
+@import url('./MediumScreen.css');
 
 /*************     GENERAL     ***********/
 
@@ -43,7 +44,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid var(--firstColor);
+    border-bottom: 2px solid var(--secondColor);
     z-index: 1000;
 }
 
@@ -60,6 +61,7 @@ h2 {
 p {
     font-size: 1rem;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 section {
@@ -67,6 +69,24 @@ section {
     display: flex;
     align-items: center;
     color: var(--thirdColor);
+}
+
+hr { 
+    width: 60%;
+    margin-bottom: 20px;
+    border: 1px solid var(--thirdColor);
+    border-radius: 16px;
+}
+
+.line {
+    width: 45%;
+    margin: auto;
+    margin-block: 20px;
+    border: 1px solid var(--secondColor);
+}
+
+.line:last-child {
+    margin-bottom: 100px;
 }
 
 img {

@@ -1,0 +1,20 @@
+
+/****** Media queries ***********/
+  
+/* Medium devices (computers, less/equal than 768px) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 60%;
+        height: 60%;
+    }
+
+    .nav-bar a {
+        font-size: 14px;
+    }
+    
+    .nav-links li { 
+        margin-left: 0;
+    }
+}
+
