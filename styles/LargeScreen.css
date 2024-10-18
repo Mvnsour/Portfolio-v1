@@ -1,0 +1,31 @@
+/* Large devices (computers, less/equal than 1024px) */
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+/*************** GENERAL **************/
+
+    main {
+        display: block;
+    }
+
+/*************** NAVBAR **************/
+    
+    
+
+/*************** HOME **************/
+    
+
+
+/*************** PROJECTS **************/
+
+
+
+/*************** ABOUT ME **************/
+
+
+
+/*************** CONTACT **************/
+
+
+
+}
