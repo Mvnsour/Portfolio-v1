@@ -1,9 +1,43 @@
-
-/****** Media queries ***********/
-  
-/* Medium devices (computers, less/equal than 768px) */
+/* Medium devices (tablets, less/equal than 768px) */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+/*************** GENERAL **************/
+    
+    section {
+        min-height: 92vh;
+    }
+
+    .main, .footer {
+        margin-inline: 6rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .btn-box a, .cta {
+        width: 55%;
+    }
+
+    .h2 {
+        font-size: 25px;
+    }
+
+    .project-img {
+        width: 95%;
+        height: 280px;
+    }
+/*************** NAVBAR **************/
+
+    .header {
+    padding: 10px 6rem;
+    }
+
+    .logo-container {
+        width: 10%;
+    }
+    
     .logo {
         width: 60%;
         height: 60%;
@@ -11,10 +45,32 @@
 
     .nav-bar a {
         font-size: 14px;
+        margin-left: 10px;
     }
     
     .nav-links li { 
         margin-left: 0;
     }
+
+/*************** HOME **************/
+
+.home-content h1 {
+    font-size: 3.5rem;
 }
 
+.home-content h1:last-child {
+    margin-bottom: 35px;
+}
+
+/*************** PROJECTS **************/
+
+
+
+/*************** ABOUT ME **************/
+
+
+
+/*************** CONTACT **************/
+
+
+}

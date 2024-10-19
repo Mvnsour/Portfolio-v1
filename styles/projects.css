@@ -50,6 +50,7 @@
     align-items: center;
     gap: 10px;
     font-size: 75%;
+    text-align: center;
 }
 
 /* When you mouse over the container, fade in the overlay title */
