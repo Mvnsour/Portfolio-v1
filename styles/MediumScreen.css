@@ -4,36 +4,38 @@
 
 /*************** GENERAL **************/
     
+    .header {
+    padding: 10px 8rem;
+    }
+
     section {
         min-height: 92vh;
     }
 
-    .main, .footer {
-        margin-inline: 6rem;
+    .main, 
+    .footer {
+        margin-inline: 8rem;
     }
 
     p {
         font-size: 14px;
     }
 
-    .btn-box a, .cta {
-        width: 55%;
+    .btn-box .btn-link,
+    .cta {
+        width: 65%;
+        height: 42px;
+        font-size: 14px;
     }
 
     .h2 {
         font-size: 25px;
     }
-
-    .project-img {
-        width: 95%;
-        height: 280px;
-    }
-/*************** NAVBAR **************/
-
-    .header {
-    padding: 10px 6rem;
-    }
-
+ 
+    
+    /*************** NAVBAR **************/
+    
+    
     .logo-container {
         width: 10%;
     }
@@ -42,7 +44,7 @@
         width: 60%;
         height: 60%;
     }
-
+    
     .nav-bar a {
         font-size: 14px;
         margin-left: 10px;
@@ -51,23 +53,30 @@
     .nav-links li { 
         margin-left: 0;
     }
+    
+    /*************** HOME **************/
+    
+    .home-content h1 {
+        font-size: 3.5rem;
+        margin-bottom: 45px;
+    }
+    
+    .home-content h1:last-child {
+        margin-bottom: 35px;
+    }
+    
+    /*************** PROJECTS **************/
+    
+    .project-content {
+        width: 25%;
+    }
+    
+    .project-img {
+        height: 270px;
+    }
 
-/*************** HOME **************/
-
-.home-content h1 {
-    font-size: 3.5rem;
-}
-
-.home-content h1:last-child {
-    margin-bottom: 35px;
-}
-
-/*************** PROJECTS **************/
-
-
-
-/*************** ABOUT ME **************/
-
+    /*************** ABOUT ME **************/
+    
 
 
 /*************** CONTACT **************/
