@@ -22,7 +22,7 @@
     }
 
     .btn-box .btn-link,
-    .cta {
+    .btn-box .cta {
         width: 65%;
         height: 42px;
         font-size: 14px;
@@ -31,7 +31,14 @@
     .h2 {
         font-size: 25px;
     }
- 
+
+    .nav-bar a,
+    .home-content p,
+    .projects p,
+    .about-me p
+     {
+        font-size: 14px;
+    }
     
     /*************** NAVBAR **************/
     
@@ -46,7 +53,6 @@
     }
     
     .nav-bar a {
-        font-size: 14px;
         margin-left: 10px;
     }
     
@@ -67,19 +73,24 @@
     
     /*************** PROJECTS **************/
     
-    .project-content {
-        width: 25%;
-    }
-    
     .project-img {
         height: 270px;
     }
 
     /*************** ABOUT ME **************/
     
+    /* nothing to change */
 
+    /*************** CONTACT **************/
 
-/*************** CONTACT **************/
+    .label,
+    .input, 
+    .textarea {
+        font-size: 14px;
+    }
 
+    .link-item {
+        font-size: 40px;
+    }
 
 }
