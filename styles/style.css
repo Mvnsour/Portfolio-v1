@@ -32,14 +32,14 @@ body {
 }
 
 main, footer {
-    margin-inline: 14rem;
+    margin-inline: 12rem;
 }
 
 header {
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 10px 14rem;
+    padding: 10px 12rem;
     background: var(--background);
     display: flex;
     align-items: center;
