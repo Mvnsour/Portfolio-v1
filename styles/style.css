@@ -4,6 +4,7 @@
 @import url('./AboutMe.css');
 @import url('./Contact.css');
 @import url('./MediumScreen.css');
+@import url('./LargeScreen.css');
 
 /*************     GENERAL     ***********/
 
@@ -72,7 +73,7 @@ section {
 }
 
 hr { 
-    width: 60%;
+    width: 65%;
     margin-bottom: 20px;
     border: 1px solid var(--thirdColor);
     border-radius: 16px;

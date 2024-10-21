@@ -16,9 +16,8 @@
 .nav-bar a {
     display: inline-block;
     text-decoration: none;
-    font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 15px;
     color: var(--thirdColor);
     transition: 0.5s;
 }

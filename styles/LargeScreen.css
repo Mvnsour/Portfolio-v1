@@ -1,16 +1,19 @@
 /* Large devices (computers, less/equal than 1024px) */
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
 
 /*************** GENERAL **************/
 
-    main {
+    .main,
+    .footer {
         display: block;
     }
 
 /*************** NAVBAR **************/
     
-    
+    .nav-bar a {
+        font-size: 16px;
+    }
 
 /*************** HOME **************/
     
@@ -18,7 +21,10 @@
 
 /*************** PROJECTS **************/
 
-
+    .projects .project-container {
+        gap: 30px; 
+        justify-content: space-evenly;
+    }
 
 /*************** ABOUT ME **************/
 
@@ -26,6 +32,8 @@
 
 /*************** CONTACT **************/
 
-
+    .contact {
+        margin-inline: -2rem ;
+    }
 
 }
