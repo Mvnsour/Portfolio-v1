@@ -1,0 +1,57 @@
+/* Small devices (portrait & landscape phones, less/equal than 576px) */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+/*************** GENERAL **************/
+
+.header {
+    padding-inline: 6rem;
+    }
+
+    .main, 
+    .footer {
+        margin-inline: 6rem;
+    }
+
+    h2 {
+    font-size: 20px;
+    }
+    
+    .nav-bar a,
+    .home-content p,
+    .projects p,
+    .about-me p
+     {
+        font-size: 12px;
+    }
+
+    .btn-box .btn-link,
+    .btn-box .cta {
+        width: 45%;
+        height: 35px;
+        font-size: 12px;
+    }
+
+/*************** NAVBAR **************/
+    
+
+    
+/*************** HOME **************/
+
+    .home-content h1 {
+    font-size: 3rem;
+    }
+
+/*************** PROJECTS **************/
+
+
+
+/*************** ABOUT ME **************/
+
+
+
+/*************** CONTACT **************/
+
+
+
+}

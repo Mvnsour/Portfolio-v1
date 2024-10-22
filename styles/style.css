@@ -3,8 +3,9 @@
 @import './Projects.css';
 @import url('./AboutMe.css');
 @import url('./Contact.css');
-@import url('./MediumScreen.css');
 @import url('./LargeScreen.css');
+@import url('./MediumScreen.css');
+@import url('./SmallScreen.css');
 
 /*************     GENERAL     ***********/
 
