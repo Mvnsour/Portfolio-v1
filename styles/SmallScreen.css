@@ -1,4 +1,4 @@
-/* Small devices (portrait & landscape phones, less/equal than 576px) */
+/* Small devices (portrait & landscape phones, less/equal than 320px) */
 
 @media (min-width: 320px) and (max-width: 768px) {
 
@@ -10,7 +10,7 @@
 
     .main, 
     .footer {
-        margin-inline: 6rem;
+        margin-inline: 2rem;
     }
 
     h2 {
@@ -41,10 +41,12 @@
     .home-content h1 {
     font-size: 3rem;
     }
-
+    
 /*************** PROJECTS **************/
 
-
+    .projects .project-container {
+    flex-direction: column;
+    }
 
 /*************** ABOUT ME **************/
 
@@ -52,6 +54,14 @@
 
 /*************** CONTACT **************/
 
+    .label,
+    .input,
+    .textarea,
+    .links {
+        width: 100%;
+    }
 
-
+    .link-item {
+        font-size: 40px
+    }
 }
