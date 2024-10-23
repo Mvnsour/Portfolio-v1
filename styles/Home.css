@@ -3,4 +3,9 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
+    animation: text-reveal 0.5s ease forwards;
+}
+
+.home-content h1:first-child {
+    margin-bottom: 0;
 }
