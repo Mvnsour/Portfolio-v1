@@ -1,0 +1,72 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: var(--thirdColor);
+}
+
+.projects .project-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.project-link {
+  text-decoration: none;
+  color: var(--thirdColor);
+  font-size: 1.5rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 1rem;
+}
+
+/* The overlay effect - lays on top of the
+    container and over the image */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: var(--firstColor);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay .details .project-tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 75%;
+  text-align: center;
+}
+/* When
+    you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+span {
+  color: var(--fourthColor);
+}
+
+.project-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
