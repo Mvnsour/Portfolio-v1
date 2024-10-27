@@ -1,96 +1,94 @@
 /* Medium devices (tablets, less/equal than 768px) */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  /*************** GENERAL **************/
 
-/*************** GENERAL **************/
-    
-    .header {
+  .header {
     padding-inline: 8rem;
-    }
+  }
 
-    section {
-        min-height: 92vh;
-    }
+  section {
+    min-height: 92vh;
+  }
 
-    .main, 
-    .footer {
-        margin-inline: 8rem;
-    }
+  .main,
+  .footer {
+    margin-inline: 8rem;
+  }
 
-    p {
-        font-size: 14px;
-    }
+  p {
+    font-size: 14px;
+  }
 
-    .btn-box .btn-link,
-    .btn-box .cta {
-        width: 65%;
-        height: 42px;
-        font-size: 14px;
-    }
+  .btn-box .btn-link,
+  .btn-box .cta {
+    width: 65%;
+    height: 42px;
+    font-size: 14px;
+  }
 
-    .h2 {
-        font-size: 25px;
-    }
+  .h2 {
+    font-size: 25px;
+  }
 
-    .nav-bar a,
-    .home-content p,
-    .projects p,
-    .about-me p
-     {
-        font-size: 14px;
-    }
-    
-    /*************** NAVBAR **************/
-    
-    
-    .logo-container {
-        width: 10%;
-    }
-    
-    .logo {
-        width: 60%;
-        height: 60%;
-    }
-    
-    .nav-bar a {
-        margin-left: 10px;
-    }
-    
-    .nav-links li { 
-        margin-left: 0;
-    }
-    
-    /*************** HOME **************/
-    
-    .home-content h1 {
-        font-size: 3.5rem;
-        margin-bottom: 45px;
-    }
-    
-    .home-content h1:last-child {
-        margin-bottom: 35px;
-    }
-    
-    /*************** PROJECTS **************/
-    
-    .project-img {
-        height: 270px;
-    }
+  .nav-bar a,
+  .home-content p,
+  .projects p,
+  .about-me p {
+    font-size: 14px;
+  }
 
-    /*************** ABOUT ME **************/
-    
-    /* nothing to change */
+  /*************** NAVBAR **************/
 
-    /*************** CONTACT **************/
+  .logo-container {
+    width: 10%;
+  }
 
-    .label,
-    .input, 
-    .textarea {
-        font-size: 14px;
-    }
+  .logo {
+    width: 60%;
+    height: 60%;
+  }
 
-    .link-item {
-        font-size: 40px;
-    }
+  .nav-bar a {
+    margin-left: 10px;
+  }
 
+  .nav-links li {
+    margin-left: 0;
+  }
+
+  /*************** HOME **************/
+
+  .home-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 45px;
+  }
+
+  .home-content h1:last-child {
+    margin-bottom: 35px;
+  }
+
+  /*************** PROJECTS **************/
+
+  .project-img {
+    height: 270px;
+  }
+
+  /*************** ABOUT ME **************/
+
+  /* nothing to change */
+
+  /*************** CONTACT **************/
+
+  .label,
+  .input,
+  .textarea {
+    font-size: 14px;
+  }
+
+  .link-item,
+  .fa-brands,
+  .fa-envelope {
+    font-size: 40px;
+  }
 }

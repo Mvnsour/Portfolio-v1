@@ -1,67 +1,99 @@
 /* Small devices (portrait & landscape phones, less/equal than 320px) */
 
 @media (min-width: 320px) and (max-width: 768px) {
+  /*************** GENERAL **************/
 
-/*************** GENERAL **************/
+  .header {
+    padding: 12px 2rem;
+    position: fixed;
+    bottom: 0px;
+    top: auto; /* remove top: 0; */
+    border-bottom: 0;
+    border-top: 2px solid var(--secondColor);
+  }
 
-.header {
-    padding-inline: 6rem;
-    }
+  .main,
+  .footer {
+    margin-inline: 2rem;
+  }
 
-    .main, 
-    .footer {
-        margin-inline: 2rem;
-    }
-
-    h2 {
+  h2 {
     font-size: 20px;
-    }
-    
-    .nav-bar a,
-    .home-content p,
-    .projects p,
-    .about-me p
-     {
-        font-size: 12px;
-    }
+  }
 
-    .btn-box .btn-link,
-    .btn-box .cta {
-        width: 45%;
-        height: 35px;
-        font-size: 12px;
-    }
+  .nav-bar a,
+  .home-content p,
+  .projects p,
+  .about-me p {
+    font-size: 12px;
+  }
 
-/*************** NAVBAR **************/
-    
+  .btn-box .btn-link,
+  .btn-box .cta {
+    width: 45%;
+    height: 35px;
+    font-size: 12px;
+  }
 
-    
-/*************** HOME **************/
+  /*************** NAVBAR **************/
 
-    .home-content h1 {
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-links,
+  .logo-container {
+    display: none;
+  }
+
+  .nav-item {
+    visibility: visible;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .nav-bar .nav-item a {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  /*************** HOME **************/
+
+  .home-content h1 {
     font-size: 3rem;
-    }
-    
-/*************** PROJECTS **************/
+  }
 
-    .projects .project-container {
+  /*************** PROJECTS **************/
+
+  .projects .project-container {
     flex-direction: column;
-    }
+  }
 
-/*************** ABOUT ME **************/
+  .project-content {
+    width: 80%;
+  }
 
+  /*************** ABOUT ME **************/
 
+  /*************** CONTACT **************/
 
-/*************** CONTACT **************/
+  .label,
+  .input,
+  .textarea,
+  .links {
+    width: 100%;
+  }
 
-    .label,
-    .input,
-    .textarea,
-    .links {
-        width: 100%;
-    }
+  .links {
+    padding-bottom: 80px;
+  }
 
-    .link-item {
-        font-size: 40px
-    }
+  .link-item,
+  .fa-brands,
+  .fa-envelope {
+    font-size: 35px;
+  }
 }
