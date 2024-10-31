@@ -6,6 +6,10 @@
   color: var(--thirdColor);
 }
 
+.projects .project-content {
+  width: 35%;
+}
+
 .projects .project-container {
   width: 100%;
   display: flex;
