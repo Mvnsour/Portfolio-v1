@@ -76,7 +76,7 @@
     flex-direction: column;
   }
 
-  .project-content {
+  .projects .project-content {
     width: 80%;
   }
 
@@ -88,7 +88,7 @@
   .input,
   .textarea,
   .links {
-    width: 100%;
+    width: 90%;
   }
 
   .links {
