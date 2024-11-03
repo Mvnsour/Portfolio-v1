@@ -25,18 +25,18 @@
   .home-content p,
   .projects p,
   .about-me p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .btn-box .btn-link,
   .btn-box .cta {
     width: 45%;
     height: 35px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   span {
-    font-size: 12px
+    font-size: 14px
   }
 
   /*************** NAVBAR **************/
@@ -89,6 +89,12 @@
   .textarea,
   .links {
     width: 90%;
+  }
+
+  .label,
+  .input,
+  .textarea {
+    font-size: 14px;
   }
 
   .links {
