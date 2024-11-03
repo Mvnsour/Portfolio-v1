@@ -17,7 +17,7 @@
   }
 
   p {
-    font-size: 14px;
+    font-size: 1rem;
   }
 
   .btn-box .btn-link,
@@ -35,7 +35,7 @@
   .home-content p,
   .projects p,
   .about-me p {
-    font-size: 14px;
+    font-size: 1rem;
   }
 
   /*************** NAVBAR **************/
@@ -83,7 +83,7 @@
   .label,
   .input,
   .textarea {
-    font-size: 14px;
+    font-size: 1rem;
   }
 
   .link-item,
