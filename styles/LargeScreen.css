@@ -4,16 +4,20 @@
 
 /*************** GENERAL **************/
 
-    .main,
-    .footer {
-        display: block;
-    }
+  .main,
+  .footer {
+    display: block;
+  }
+
+  p {
+    font-size: 18px;
+  }
 
 /*************** NAVBAR **************/
     
-    .nav-bar a {
-        font-size: 16px;
-    }
+  .nav-bar a {
+      font-size: 16px;
+  }
 
 /*************** HOME **************/
     
@@ -21,10 +25,10 @@
 
 /*************** PROJECTS **************/
 
-    .projects .project-container {
-        gap: 30px; 
-        justify-content: space-evenly;
-    }
+  .projects .project-container {
+    gap: 30px; 
+    justify-content: space-evenly;
+  }
 
 /*************** ABOUT ME **************/
 
@@ -32,8 +36,14 @@
 
 /*************** CONTACT **************/
 
-    .contact {
-        margin-inline: -2rem ;
-    }
+  .contact {
+    margin-inline: -2rem ;
+  }
 
 }
+
+  .label,
+  .input,
+  .textarea {
+    font-size: 18px;
+  }
