@@ -31,6 +31,10 @@
   border-radius: 1rem;
 }
 
+.project-img {
+  border: 2px solid var(--secondColor); /* to see later if I change the color */
+}
+
 /* The overlay effect - lays on top of the
     container and over the image */
 
