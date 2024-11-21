@@ -80,6 +80,7 @@ section {
   display: flex;
   align-items: center;
   color: var(--thirdColor);
+  margin-bottom: 20px;
 }
 
 hr {
@@ -107,9 +108,21 @@ img {
   justify-content: center;
 }
 
+.contact-field {
+  margin-bottom: 0;
+}
+
+.btn-container {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .btn-box,
 .cta {
-  width: 280px;
+  width: 260px;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -120,7 +133,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 100%;
   height: 100%;
   border: 1px solid var(--thirdColor);
   background-color: var(--firstColor);
