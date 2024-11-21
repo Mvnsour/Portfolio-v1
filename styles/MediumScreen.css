@@ -20,11 +20,13 @@
     font-size: 1rem;
   }
 
+  .btn-container .btn-box, .cta {
+    width: 220px;
+  }
+
   .btn-box .btn-link,
   .btn-box .cta {
-    width: 65%;
-    height: 42px;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .h2 {
@@ -47,10 +49,6 @@
   .logo {
     width: 60%;
     height: 60%;
-  }
-
-  .nav-bar a {
-    margin-left: 10px;
   }
 
   .nav-links li {
@@ -79,6 +77,12 @@
   /* nothing to change */
 
   /*************** CONTACT **************/
+
+  label,
+  input,
+  textarea{
+    width: 75%;
+  }
 
   .label,
   .input,
