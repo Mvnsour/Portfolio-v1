@@ -4,7 +4,7 @@
   /*************** GENERAL **************/
 
   .header {
-    padding: 12px 2rem;
+    padding: 5px 8px;
     position: fixed;
     bottom: 0px;
     top: auto; /* remove top: 0; */
@@ -28,10 +28,15 @@
     font-size: 14px;
   }
 
+  .about-me-content .btn-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
   .btn-box .btn-link,
   .btn-box .cta {
-    width: 45%;
-    height: 35px;
+    width: 85%;
     font-size: 14px;
   }
 
@@ -42,7 +47,7 @@
   img {
     height: 300px;
   }
-  
+
   /*************** NAVBAR **************/
 
   .nav-bar {
@@ -59,13 +64,20 @@
   .nav-item {
     visibility: visible;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     cursor: pointer;
     transition: 0.3s;
   }
 
   .nav-bar .nav-item a {
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    }
+
+  .nav-item p {
+    margin: 0;
+    font-size: 14px;
   }
 
   /*************** HOME **************/
